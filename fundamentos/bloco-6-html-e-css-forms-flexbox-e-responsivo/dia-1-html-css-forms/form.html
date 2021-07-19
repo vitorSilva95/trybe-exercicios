@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <title>Document</title>
+</head>
+<body>
+  <header><h1>Formulário de cadastro de currículo </h1></header>
+  <form action="" method="GET">
+    
+   <fieldset class="style-fieldset">
+     <label for="name">Nome
+       <input type="text" name="" id="name" maxlength="40" required>
+     </label>
+     <br>
+     <label for="Email">Email
+       <input type="text" name="" id="email" maxlength="50" required>
+     </label>
+     <br>
+     <label for="cpf">CPF  
+       <input type="text" name="" id="cpf" maxlength="11" required>
+     </label>
+     <br>
+     <label for="endereco">endereço
+      <input type="text" name="" id="endereco" maxlength="400" required>
+     </label>
+     <br>
+      <label for="cidade">cidade
+        <input type="text" name="" id="cidade" maxlength="28">
+      </label>
+      <br>
+      <div class="formataTipo" >
+      <label for="estado" >Selecione o Estado
+        <select name="" id="estado" required>
+
+        </select>
+      </label>
+    </div>
+      <br>
+
+     <div id="tipo" class="formataTipo">
+      <label for="casa"></label>Tipo  
+        <input type="radio" name="casa-apartamento" id="casa">Casa
+      <label for="apartamento"></label>
+        <input type="radio" name="casa-apartamento" id="apartamento">Apartamento
+      </div>
+      
+   </fieldset>
+
+   <fieldset class="style-fieldset">
+     <p>Resumo do currículo</p>
+     <label for="">
+     <textarea name="" id="" maxlength="1000"></textarea>
+    </label>
+     <br>
+
+    <label for="">Cargo
+      <input type="text" name="" id="" maxlength="40">
+     </label>
+     <br>
+
+     <label for="">Descrição do Cargo
+      <input type="text" name="" id="" maxlength="500">
+     </label>
+     <br>
+
+     <label for="">Data de início
+      <input type="text" name="" id="data">
+     </label>
+     
+   </fieldset>
+   <button type="submit" id="enviar">Enviar</button>
+   <button type="submit" id="limpar">limpar</button>
+   <div id="saidaDados">
+    
+  </div>
+  </form>
+  
+  
+   <script src="script.js"></script>
+</body>
+</html>
