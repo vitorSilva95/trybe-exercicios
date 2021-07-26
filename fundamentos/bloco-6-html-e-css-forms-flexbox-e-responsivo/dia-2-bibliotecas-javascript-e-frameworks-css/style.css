@@ -1,0 +1,15 @@
+.container {
+  font-size:  1.5em;
+}
+
+.style-radio {
+  margin: 20px auto;
+  padding: 20px;
+  border: solid rgba(223, 222, 222, 0.651);
+
+}
+
+button {
+  margin-top: 20px;
+  margin-left: 20px;
+}
