@@ -13,9 +13,4 @@ const longestWord = frase => {
   return maior;
 }
 
-
-
-
-
-
 console.log(longestWord("Antônio foi no banheiro e não sabemos o que aconteceu"))// retorna 'aconteceu'
