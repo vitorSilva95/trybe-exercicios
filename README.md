@@ -3,7 +3,7 @@ ________________________________________________________________________________
 
 Neste repositório ficarão todos os exercícios realizados na Trybe , divididos da seguinte maneira:
 
-- Fundamentos 
+- Nome do bloco
 - - Bloco 
 - - - Dia do bloco
 - - - - Exercícios.
