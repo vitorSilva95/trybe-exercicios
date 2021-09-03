@@ -8,7 +8,7 @@ Neste repositório ficarão todos os exercícios realizados na Trybe , divididos
 - - - Dia do bloco
 - - - - Exercícios.
 ____________________________________________________________________________________________________
-- Fundamentos — Diretório raiz dos exercícios.                                                     
+- Nome do bloco— Pasta contendo os exercícios.                                                     
 - Bloco — Especifica qual bloco pertence os exercícios.                                            
 - Dia do bloco — O dia que o exercício foi realizado no respectivo bloco.                          
 - Exercícios — Todos os arquivos referentes aos exercícios.                                         
